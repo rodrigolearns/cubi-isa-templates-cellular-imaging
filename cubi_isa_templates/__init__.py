@@ -145,6 +145,12 @@ _TEMPLATES = (
         "projects",
         configuration=load_variables("isatab-stem_cell_core_sc"),
     ),
+    IsaTabTemplate(
+        name="generic_also",
+        path=os.path.join(_BASE_DIR, "isatab-generic-also"),
+        description="generic whatever",
+        configuration=load_variables("isatab-generic-also"),
+    ),
 )
 
 #: Known ISA-tab templates.
