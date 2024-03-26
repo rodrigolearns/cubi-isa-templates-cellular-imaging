@@ -50,10 +50,10 @@ setup(
     include_package_data=True,
     name="cubi-isa-templates",
     packages=["cubi_isa_templates"],
-    url="https://github.com/bihealth/cubi-isa-templates",
+    url="https://github.com/rodrigolearns/cubi-isa-templates-cellular-imaging",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     project_urls={
-        "Changelog": "https://github.com/bihealth/cubi-isa-templates/blob/main/CHANGELOG.md",
+        "Changelog": "https://github.com/rodrigolearns/cubi-isa-templates-cellular-imaging/blob/main/CHANGELOG.md",
     },
 )
